@@ -1,0 +1,9 @@
+print("ReadyGoSetup Test Code.\n")
+print("Prattay Rocks!!111!!1!11")
+inputval1 = str(input("Do You Want To Happi?? (y/n)"))
+if inputval1.lower() == "y":
+    print("I Can't You Happi!!1!11!!!1")
+    exit(1)
+elif inputval1.lower() == "n":
+    print("I Wasn't Gonna You Happi Anyways!!11!1!!!111")
+    exit(-1)
